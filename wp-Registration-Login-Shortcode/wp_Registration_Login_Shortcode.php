@@ -13,7 +13,7 @@
 
  //avoid direct calls to this file
 if ( !defined( 'ABSPATH' ) ) { exit; }
-test
+
 
 /**
  * Defind Class 
