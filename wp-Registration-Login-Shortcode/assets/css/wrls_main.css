@@ -1,0 +1,244 @@
+/* login page css */
+
+/* .login_form_label_email{
+  margin-right: 370px;
+}
+.login_form_label_password{
+  margin-right: 350px;
+}
+.label#login_Username-error{
+  margin-right: 200px;
+} */
+.login_container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://img.freepik.com/premium-vector/technology-background-poly-effect_23-2148453989.jpg?size=626&ext=jpg&ga=GA1.1.978397827.1684738686&semt=ais);
+  background-size: cover;
+}
+.login_box{
+  background-color:transparent;
+  padding:20px 30px;
+  width: 400px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  backdrop-filter: blur(4px);
+}
+#login_text{
+  text-align:center;
+  margin-bottom: 30px;
+  font-size:40px;
+  color:#FFF;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.input_box{
+  width: 90%;
+  margin: auto;
+  height: 40px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-group{
+  margin-bottom: 15px;
+}
+
+#login_Username,
+#login_password{
+  height: 40px;
+  width: 100%;
+  border-radius: 14px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  color: black;
+}
+
+#login_Username:hover,
+#login_password:hover{
+  border: 2px solid white;
+  background:local;
+  color: white;
+}
+.error{
+  color: red;
+}
+#login_lable{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+.login{
+  width: 40px;
+  
+}
+.login button{
+  width: 180px;
+  height:40px;
+  margin-top:30px;
+  border-radius: 20px;
+  font-size:18px;
+  font-weight:bold;
+  margin-left: 10px;
+  /* margin-right: 90px; */
+  background-color: #fff;
+  border: none;
+  outline:none;
+  color:black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.login button:hover{
+  border: 1px solid white;
+  background:local;
+  color: white;;
+}
+#login_check{
+  margin-right: 100px;
+}
+#login_btn{
+  margin-left: 80px;
+}
+label{
+  color:white;
+}
+
+/* registration page css */
+.Registration{
+  width: 100%;
+  padding: 20px 40px;
+  height: 100vh;
+  background-image: url(https://img.freepik.com/premium-vector/technology-background-poly-effect_23-2148453989.jpg?size=626&ext=jpg&ga=GA1.1.978397827.1684738686&semt=ais);
+  background-size: cover;
+  
+}
+.Registration .Registration_title{
+  text-align:center;
+  margin-bottom: 30px;
+  font-size:40px;
+  color:#FFF;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.Registration_body{
+  background-color:transparent;
+  padding:50px 20px;
+  width: 800px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  backdrop-filter: blur(4px);
+  margin-left: 20%;
+  margin-top: 6%; 
+}
+.Registration_body form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.user-details .input-box input{
+  height:40px;
+  width: 100%;
+  padding-left: 15px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 18px;
+  border-radius: 14px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.user-details .input-box input:hover{
+  border: 2px solid white;
+  background:local;
+  color: white;;
+}
+form .button{
+  height: 45px;
+  margin: 35px 0;
+  text-align: center;
+}
+#register-btn{
+  width: 200px;
+  height:40px;
+  margin-top:20px;
+  border-radius: 20px;
+  font-size:18px;
+  font-weight:bold;
+  background-color: #fff;
+  transition: .3s;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+#register-btn:hover{
+  cursor: pointer;
+  background-color:transparent;
+  color:#fff;
+  border: 1px solid #fff;
+}
+span.text-danger{
+  color: red;
+}
+
+@media(max-width: 584px){
+  .Registration{
+    max-width: 100%;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+}
+ 
+.error_container {
+  height: 50px;
+  background-color: #fce4e4;
+  width: 50%;
+  justify-content: center;
+   margin-left: 20%; 
+  margin-top: 10%;
+  padding-left: 8%;
+  border: 1px solid #fcc2c3;
+}
+p.error_msg {
+  color: red;
+  margin-top: 12px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.error_btn_div{
+  margin-top: 10px;
+}
+#error_btn{
+  margin-left: 43%;
+  margin-bottom: 20%;
+   border-bottom: 1px solid; 
+  text-decoration: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+#error_btn:hover{
+  color:red;
+}
+.error_main{
+  padding: 10px;
+  height: 500px;
+}
