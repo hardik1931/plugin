@@ -9,7 +9,7 @@
  * Text Domain:  wp-registration-login-shortcode
  * Domain Path: /languages
  */
-
+hell rsjj herte
 
  //avoid direct calls to this file
 if ( !defined( 'ABSPATH' ) ) { exit; }
